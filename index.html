@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="To-Do.css">
+</head>
+<body>
+     <div id="container">
+        <div id="header">
+            <h2>To-Do List <img src="assets/Images/Check-list.png" height="30px">
+                <span id="date"></span> <!-- Input box for reminder time -->
+        <label for="reminder">Reminder:</label>
+        <input type="datetime-local" id="reminder"></h2>
+        <div class="row">
+        <!-- Input box for new tasks -->
+        <input type="text" id="item" placeholder="Add a new task...">
+        <!-- Button to add a new task -->
+        <button id="enter">Enter</button>
+         </div>
+        <!-- List container for displaying tasks -->
+        <div class="to-do-list" id="list-container"></div>
+    </div>
+    </div>
+    
+    <script src="To-Do.js"></script>
+</body>
+</html>
